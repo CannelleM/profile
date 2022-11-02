@@ -78,6 +78,10 @@ a {
   color: #F900BF;
 }
 
+.list-inline i:hover {
+  color: #fd84e1;
+}
+
 .button-pink {
   background-color:#F900BF;
   color: white;
@@ -88,6 +92,11 @@ a {
   margin: 20px 20px;
   padding: 7px;
   text-align: center;
+}
+
+.button-pink:hover {
+  background-color:#fd84e1;
+  border: 1px solid #fd84e1;
 }
 
 @media (max-width: 960px) {
